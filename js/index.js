@@ -118,3 +118,40 @@ vision_H4.innerHTML = "Vision";
 
 let visionContent = document.getElementsByTagName('p')[4];
 visionContent.innerHTML = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+//contact - footer
+
+let contact_H4 = document.getElementsByTagName('h4')[5];
+contact_H4.innerHTML = "Contact";
+
+let address = document.getElementsByTagName('p')[5];
+address.innerHTML = "23 Way 456 Street Somewhere, USA";
+
+let phone = document.getElementsByTagName('p')[6];
+phone.innerHTML = "1 (888) 888-8888";
+
+let email = document.getElementsByTagName('p')[7];
+email.innerHTML = "sales@greatidea.io";
+
+//footer
+
+let footer = document.getElementsByTagName('p')[8];
+footer.innerHTML = "Copyright Great Idea! 2018";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
