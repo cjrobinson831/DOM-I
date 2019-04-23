@@ -119,6 +119,11 @@ vision_H4.innerHTML = "Vision";
 let visionContent = document.getElementsByTagName('p')[4];
 visionContent.innerHTML = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
+
+let middle = document.getElementById("middle-img");
+middle.setAttribute('src', "img/mid-page-accent.jpg")
+
+
 //contact - footer
 
 let contact_H4 = document.getElementsByTagName('h4')[5];
