@@ -76,3 +76,23 @@ about.innerHTML = 'About';
 
 let contact = document.getElementsByTagName('a')[5]
 contact.innerHTML = 'Contact';
+
+
+//cta
+
+let h1 = document.getElementsByTagName('h1')[0];
+h1.innerHTML = "DOM Is Awesome";
+
+let buttonGet = document.getElementsByTagName("button")[0];
+buttonGet.innerHTML = "Get Started";
+
+let headerImgCta = document.getElementById("cta-img");
+headerImgCta.setAttribute("src", siteContent["cta"] ["img-src"]);
+
+//main-content
+
+let featuresH4 = document.getElementsByTagName('h4')[0];
+featuresH4.innerHTML = 'Features';
+
+let featuresContent = document.getElementsByTagName('p')[0];
+featuresContent.innerHTML = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
