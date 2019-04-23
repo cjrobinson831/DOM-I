@@ -96,3 +96,25 @@ featuresH4.innerHTML = 'Features';
 
 let featuresContent = document.getElementsByTagName('p')[0];
 featuresContent.innerHTML = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+let aboutContent_1 = document.getElementsByTagName('h4')[2];
+aboutContent_1.innerHTML = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+let services_H4 = document.getElementsByTagName('H4')[2];
+services_H4.innerHTML = "Services";
+
+let servicesContent = document.getElementsByTagName('p')[2];
+servicesContent.innerHTML = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+let product_H4 = document.getElementsByTagName('h4')[3];
+product_H4.innerHTML = "Product";
+
+let productContent = document.getElementsByTagName('p')[3];
+productContent.innerHTML = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+
+let vision_H4 = document.getElementsByTagName('h4')[4];
+vision_H4.innerHTML = "Vision";
+
+let visionContent = document.getElementsByTagName('p')[4];
+visionContent.innerHTML = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
